@@ -2,8 +2,10 @@
 
 body {
     background-image: url("./images/bg.jpg");
-    background-repeat: no-repeat ;
+    background-repeat: no-repeat center center fixed ;
     background-position: 100% 100%;
+    no-repeat center center fixed;
+    background-size: cover;
 }
 .wrapper {
     margin-right: 503px;

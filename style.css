@@ -1,16 +1,66 @@
-
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,400i|Source+Sans+Pro:300i,400,900&subset=cyrillic');
 
 body {
     background-image: url("./images/bg.jpg");
-    background-repeat: no-repeat center center fixed ;
-    background-position: 100% 100%;
-    no-repeat center center fixed;
+    background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
+    background-attachment: scroll;
+    text-align: center;
 }
+
+.up, .arrow-down {
+    text-align: center;
+    color: white;
+}
+.big-button {
+    color: white;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+    border: solid white 5px;
+    padding: 31px 90px 31px 90px;
+    margin: 86px;
+}
+
+h1 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 106px;
+    font-weight: 900;
+}
+
+h2 {
+    font-family: 'Merriweather', serif;
+    font-size: 26px;
+    font-weight: 300;
+    font-style: italic;
+}
+
 .wrapper {
     margin-right: 503px;
     margin-left: 503px;
     width: 1536px;
     height: auto;
     background-color: #fff;
+}
+
+.container {
+    padding: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul.menu {
+    float: left;
+}
+
+ul.icon {
+    float: right;
+}
+
+ul {
+    list-style: none;
 }

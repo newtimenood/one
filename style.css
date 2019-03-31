@@ -2,4 +2,13 @@
 
 body {
     background-image: url("./images/bg.jpg");
+    background-repeat: no-repeat ;
+    background-position: 100% 100%;
+}
+.wrapper {
+    margin-right: 503px;
+    margin-left: 503px;
+    width: 1536px;
+    height: auto;
+    background-color: #fff;
 }

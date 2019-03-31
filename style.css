@@ -13,7 +13,10 @@ body {
     text-align: center;
     color: white;
 }
-.big-button {
+.big-button{
+    margin: 86px;
+}
+.big-button a{
     color: white;
     text-align: center;
     font-family: 'Source Sans Pro', sans-serif;
@@ -21,7 +24,6 @@ body {
     font-weight: 900;
     border: solid white 5px;
     padding: 31px 90px 31px 90px;
-    margin: 86px;
 }
 
 h1 {
@@ -35,6 +37,9 @@ h2 {
     font-size: 26px;
     font-weight: 300;
     font-style: italic;
+}
+.menu li, .icon li{
+    display: inline;
 }
 
 .wrapper {
@@ -53,14 +58,27 @@ a {
     text-decoration: none;
 }
 
-ul.menu {
-    float: left;
-}
-
-ul.icon {
-    float: right;
-}
 
 ul {
     list-style: none;
+}
+.copyright {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 11px;
+    font-weight: 900;
+    color: rgba(255,255,255,0.5);
+}
+.copyright li{
+    display: inline;
+    padding: 10px;
+}
+.copyright a {
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    color: rgba(255,255,255,0.5);
+}
+.copyright a:hover {
+    color: #18bfef;
+    text-decoration: none;
+
 }

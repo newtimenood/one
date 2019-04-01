@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Merriweather:400,400i|Source+Sans+Pro:300i,400,900&subset=cyrillic');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:300,300i,400|Source+Sans+Pro:300,300i,400,900');
 
 body {
     background-image: url("./images/bg.jpg");
@@ -37,6 +37,19 @@ h2 {
     font-size: 26px;
     font-weight: 300;
     font-style: italic;
+}
+.container, .data{
+    font-family: 'Merriweather', serif;
+    color: #212931;
+    font-weight: 300;
+    font-size: 21px;
+    text-align: center;
+    margin-top: 76px;
+}
+.container, h3{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 85px;
+    font-weight: 900;
 }
 .menu li, .icon li{
     display: inline;

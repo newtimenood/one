@@ -25,7 +25,18 @@ body {
     border: solid white 5px;
     padding: 31px 90px 31px 90px;
 }
-
+.menu{
+    float: left;
+}
+.icon{
+    float: right;
+}
+.navigation{
+    padding: 37px 47px 37px 47px;
+}
+.twitter, .facebook, .instagram, .github{
+    padding: 50px;
+}
 h1 {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 106px;
@@ -37,6 +48,9 @@ h2 {
     font-size: 26px;
     font-weight: 300;
     font-style: italic;
+}
+.data{
+    margin: 120px;
 }
 .container, .data{
     font-family: 'Merriweather', serif;
@@ -71,7 +85,6 @@ h2 {
 a {
     text-decoration: none;
 }
-
 
 ul {
     list-style: none;

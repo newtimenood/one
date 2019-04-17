@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather:300,300i,400|Source+Sans+Pro:300,300i,400,900');
+
+body {
+    background-image: url("./images/bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 106px;
+    font-weight: 900;
+}
+
+h2 {
+    font-family: 'Merriweather', serif;
+    font-size: 26px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+
+}
+
+main {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.main-navigation {
+    background-color: rgba(255, 0, 0, 0.5);
+    padding-bottom: 30px;
+    padding-top: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/*buttons*/
+.big-button {
+    margin: 86px;
+}
+
+.big-button a {
+    color: white;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+    border: solid white 5px;
+    padding: 31px 90px 31px 90px;
+}
+
+.up, .arrow-down {
+    text-align: center;
+    color: white;
+}
+
+/*navigation*/
+.menu {
+    float: left;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 17px;
+    font-weight: 900;
+}
+
+.menu li, .icon li {
+    display: inline-block;
+}
+
+.icon {
+    float: right;
+}
+
+/*.navigation {*/
+/*padding: 37px 47px;*/
+/*}*/
+
+/*.twitter, .facebook, .instagram, .github {*/
+/*padding: 25px;*/
+/*}*/
+
+/*!*main*!*/
+
+/*.data {*/
+/*padding: 120px;*/
+/*}*/
+
+/*.container, .data {*/
+/*font-family: 'Merriweather', serif;*/
+/*color: #212931;*/
+/*font-weight: 300;*/
+/*font-size: 21px;*/
+/*text-align: center;*/
+/*margin-top: 76px;*/
+/*}*/
+
+/*.container h2 {*/
+/*font-family: 'Source Sans Pro', sans-serif;*/
+/*font-size: 85px;*/
+/*font-weight: 900;*/
+/*font-style: normal;*/
+/*}*/
+
+/*.wrapper {*/
+/*margin-right: 503px;*/
+/*margin-left: 503px;*/
+/*width: 1536px;*/
+/*height: auto;*/
+/*}*/
+
+/*.container {*/
+/*padding: auto;*/
+/*}*/
+
+
+/*.copyright {*/
+/*font-family: "Source Sans Pro", sans-serif;*/
+/*font-size: 11px;*/
+/*font-weight: 900;*/
+/*color: rgba(255, 255, 255, 0.5);*/
+/*}*/
+
+/*.copyright li {*/
+/*display: inline;*/
+/*padding: 10px;*/
+/*}*/
+
+/*.copyright a {*/
+/*text-decoration: underline;*/
+/*text-decoration-style: dotted;*/
+/*color: rgba(255, 255, 255, 0.5);*/
+/*}*/
+
+/*.copyright a:hover {*/
+/*color: #18bfef;*/
+/*text-decoration: none;*/
+
+/*}*/

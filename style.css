@@ -36,7 +36,7 @@ main {
 }
 
 header {
-    background-color: rgba(255, 255, 255, 0.15);
+    background-color: rgba(255, 255, 255, 0.17);
     width: 1536px;
     height: 85px;
 }
@@ -45,32 +45,32 @@ header {
 
 li.active a {
     color: black;
-    /*display: inline-block;*/
 }
 
 .menu li, .icon li {
     display: inline-block;
-}
-
-nav.icon ul {
-    margin: auto;
+    line-height: 50%;
+    /*margin: ;*/
 }
 
 .active {
     background-color: white;
-    /*margin: auto;*/
 }
 
 .menu {
-    /*float: left;*/
+    float: left;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 17px;
     font-weight: 900;
+    /*padding: 17px 1px 17px 1px;*/
+    margin: auto;
 }
 
-/*.icon {*/
-/*float: right;*/
-/*}*/
+.icon {
+    float: right ;
+    /*padding: 25px ;*/
+    margin: auto;
+}
 
 /*!*main*!*/
 
@@ -84,7 +84,6 @@ nav.icon ul {
     font-weight: 300;
     font-size: 21px;
     text-align: center;
-    /*margin-top: 76px;*/
 }
 
 .container h2 {

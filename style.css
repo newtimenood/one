@@ -3,9 +3,9 @@
 body {
     background-image: url("./images/bg.jpg");
     background-repeat: no-repeat;
-    background-position: center;
+    /*background-position: center;*/
     background-size: cover;
-    background-attachment: scroll;
+    background-attachment: fixed;
     text-align: center;
 }
 
@@ -13,6 +13,12 @@ h1 {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 106px;
     font-weight: 900;
+    color: white;
+    margin-top: 24%;
+    margin-bottom: 40px;
+    letter-spacing: 8px;
+    line-height: 100%;
+
 }
 
 h2 {
@@ -20,6 +26,8 @@ h2 {
     font-size: 26px;
     font-weight: 300;
     font-style: italic;
+    color: white;
+    line-height: 250%;
 }
 
 a {
@@ -27,8 +35,21 @@ a {
     color: white;
 }
 
+.description a {
+    color: white;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+}
+
+.description a:hover {
+    color: #18bfef;
+    text-decoration: none;
+}
+
 ul {
     list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 main {
@@ -39,22 +60,38 @@ header {
     background-color: rgba(255, 255, 255, 0.17);
     width: 1536px;
     height: 85px;
+    letter-spacing: 1px;
 }
 
+.arrow-down {
+    display: inline-block;
+    border: 3px solid white;
+    border-radius: 100%;
+    padding: 25px;
+    margin: 20px;
+}
+
+.arrow-down :hover {
+    color: #18bfef;
+    border-color: #18bfef;
+
+}
 /*header*/
 
 li.active a {
     color: black;
 }
 
-.menu li, .icon li {
-    display: inline-block;
-    line-height: 50%;
-    /*margin: ;*/
-}
-
 .active {
     background-color: white;
+}
+
+.navigation {
+    padding: 32px;
+}
+
+.menu li, .icon li {
+    display: inline-block;
 }
 
 .menu {
@@ -62,13 +99,10 @@ li.active a {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 17px;
     font-weight: 900;
-    /*padding: 17px 1px 17px 1px;*/
-    margin: auto;
 }
 
 .icon {
-    float: right ;
-    /*padding: 25px ;*/
+    float: right;
     margin: auto;
 }
 
@@ -91,15 +125,21 @@ li.active a {
     font-size: 85px;
     font-weight: 900;
     font-style: normal;
+    color: #212931;
 }
 
 .wrapper {
-    margin-right: 503px;
-    margin-left: 503px;
+    margin: auto;
     width: 1536px;
     height: auto;
 }
 
+.box {
+    width: 49%;
+    display: inline-block;
+    border:1px solid #eee;
+    margin: 0;
+}
 .copyright {
     font-family: "Source Sans Pro", sans-serif;
     font-size: 11px;

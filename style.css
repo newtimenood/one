@@ -52,15 +52,20 @@ ul {
     margin: 0;
 }
 
-main {
-    background-color: rgba(255, 255, 255, 1)
-}
-
 header {
     background-color: rgba(255, 255, 255, 0.17);
     width: 1536px;
     height: 85px;
     letter-spacing: 1px;
+}
+
+main {
+    background-color: rgba(255, 255, 255, 1)
+}
+footer {
+   width: 1536px;
+   height: 778px;
+   background-color: rgb(245,245,245);
 }
 
 .arrow-down {
@@ -76,6 +81,7 @@ header {
     border-color: #18bfef;
 
 }
+
 /*header*/
 
 li.active a {
@@ -137,9 +143,10 @@ li.active a {
 .box {
     width: 49%;
     display: inline-block;
-    border:1px solid #eee;
+    border: 1px solid #eee;
     margin: 0;
 }
+
 .copyright {
     font-family: "Source Sans Pro", sans-serif;
     font-size: 11px;
@@ -163,3 +170,6 @@ li.active a {
     text-decoration: none;
 
 }
+
+/*footer*/
+

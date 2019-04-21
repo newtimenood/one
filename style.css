@@ -29,8 +29,9 @@ h2 {
     color: white;
     line-height: 250%;
 }
+
 h3 {
-   margin-bottom: 60px;
+    margin-bottom: 60px;
     font-family: 'Merriweather', serif;
     font-size: 21px;
     font-weight: 300;
@@ -68,10 +69,12 @@ header {
 main {
     background-color: rgba(255, 255, 255, 1)
 }
+
 footer {
-   width: 1536px;
-   height: 778px;
-   background-color: rgb(245,245,245);
+    width: 1536px;
+    height: 778px;
+    background-color: rgb(245, 245, 245);
+    margin-bottom: 260px;
 }
 
 .arrow-down {
@@ -161,11 +164,11 @@ div.box a {
 }
 
 .box {
-    width: 764px;
+    width: 762px;
     height: 1055px;
     display: inline-block;
-    border: 1px solid #eee;
-    margin: 0;
+    border: 2px solid #eee;
+    /*margin: 0;*/
 }
 
 .copyright {
@@ -194,3 +197,13 @@ div.box a {
 
 /*footer*/
 
+footer a {
+    color: #717981;
+}
+
+div section.form {
+    height: 772px;
+    width: 764px;
+    float: left;
+    border: #eeeeee solid 2px;
+}

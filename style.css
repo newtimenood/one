@@ -61,7 +61,6 @@ ul {
 
 header {
     background-color: rgba(255, 255, 255, 0.17);
-    width: 1536px;
     height: 85px;
     letter-spacing: 1px;
 }
@@ -71,13 +70,11 @@ main {
 }
 
 footer {
-    width: 1536px;
-    height: 778px;
     background-color: rgb(245, 245, 245);
     margin-bottom: 260px;
 }
 
-.arrow-down {
+.arrow-down a {
     display: inline-block;
     border: 3px solid white;
     border-radius: 100%;
@@ -119,6 +116,10 @@ li.active a {
 .icon {
     float: right;
     margin: auto;
+}
+
+.big-button {
+    display: none;
 }
 
 /*!*main*!*/
@@ -201,9 +202,19 @@ footer a {
     color: #717981;
 }
 
-div section.form {
-    height: 772px;
-    width: 764px;
-    float: left;
-    border: #eeeeee solid 2px;
+.left-footer{
+   width: 47%;
+    display: inline-block;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.right-footer{
+    width: 47%;
+    display: inline-block;
+    text-align: left;
+}
+
+.form{
+    padding: ;
 }

@@ -197,13 +197,30 @@ div.box a {
 
 }
 
+/*paginator*/
+div .paginator a, .paginator span {
+    border: #e2e2e2 solid 2px;
+    display: inline-block;
+    color: black;
+    padding: 19px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 900;
+    font-size: 17px;
+    text-transform: uppercase;
+
+}
+
+div .paginator {
+    padding: 85px;
+}
+
+
 /*footer*/
 
 footer a {
     color: #717981;
 
 }
-
 
 .left-footer, .right-footer {
     display: inline-block;
@@ -253,4 +270,24 @@ textarea {
 
 form {
     margin-bottom: 45px;
+}
+
+.right-footer h6 {
+    color: #717981;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 17px;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+.right-footer p {
+    color: #909498;
+    font-family: 'Merriweather', serif;
+    font-size: 17px;
+    text-transform: lowercase;
+    line-height: 2px;
+}
+
+.right-footer .adress p {
+    text-transform: capitalize;
 }

@@ -202,16 +202,21 @@ div .paginator a, .paginator span {
     border: #e2e2e2 solid 2px;
     display: inline-block;
     color: black;
-    padding: 19px;
+    padding: 20px 23px;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 900;
     font-size: 17px;
     text-transform: uppercase;
+    margin: -3px;
 
 }
 
 div .paginator {
     padding: 85px;
+}
+
+a.page.active {
+    background-color: #e2e2e2;
 }
 
 
@@ -239,6 +244,7 @@ footer a {
     letter-spacing: 1px;
     font-weight: 900;
     color: #717981;
+    border-right: #e2e2e2 solid 2px;
 
 }
 
@@ -272,12 +278,19 @@ form {
     margin-bottom: 45px;
 }
 
+.right-footer {
+    display: inline-block;
+
+}
+
 .right-footer h6 {
     color: #717981;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 17px;
     font-weight: 900;
     letter-spacing: 1px;
+    display: inline-block;
+    width: 150px;
 }
 
 .right-footer p {
@@ -285,9 +298,36 @@ form {
     font-family: 'Merriweather', serif;
     font-size: 17px;
     text-transform: lowercase;
-    line-height: 2px;
+    display: inline-block;
 }
 
 .right-footer .adress p {
     text-transform: capitalize;
+
+}
+
+.right-footer .adress h6 {
+    vertical-align: top
+}
+
+.right-footer section {
+    border-bottom: #e2e2e2 solid 2px;
+    padding: 50px 85px;
+}
+
+.footer-icon {
+    display: inline-block;
+
+}
+
+.footer-icon li{
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    border: #e2e2e2 solid 2px;
+    border-radius: 50%;
+}
+
+.left-footer {
+    padding-right: 0;
 }

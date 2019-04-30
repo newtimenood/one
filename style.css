@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Merriweather:300,300i,400|Source+Sans+Pro:300,300i,400,900');
+@import url("https://fonts.googleapis.com/css?family=Merriweather:300,300i,400|Source+Sans+Pro:300,300i,400,900");
 
 body {
     background-image: url("./images/bg.jpg");
@@ -248,7 +248,7 @@ li.active a {
 
 .copyright li {
     display: inline;
-    padding: 0px 20px;
+    padding: 0 20px;
 }
 
 .copyright a {
